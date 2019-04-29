@@ -10,7 +10,7 @@ ismultiple13(x)
 \item{x}{Real Value}
 }
 \value{
-String expressing if the input value is a multiple of 13 and the residual.
+String expressing if the input value is a multiple of 13 or the residual.
 }
 \description{
 The functions checks if the input value is a multiple of 13.
