@@ -1,13 +1,16 @@
-Package: homework
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Package: Homework
+Title: Simple Package homework
+Version: 1.0
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Leonardo",
+           family = "Alcivar Wong",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
+           email = "sixter.alcivar@barcelonagse.eu",
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+Description: Two simple functions: one detects if a number is bigger than 2 and the other if the number is divisible by 13
 License: What license it uses
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 6.1.1
+Suggests: 
+    testthat (>= 2.1.0)

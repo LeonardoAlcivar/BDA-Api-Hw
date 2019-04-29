@@ -1,2 +1,4 @@
 ^homework\.Rproj$
 ^\.Rproj\.user$
+^packrat/
+^\.Rprofile$
