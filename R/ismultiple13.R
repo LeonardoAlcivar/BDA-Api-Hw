@@ -4,7 +4,7 @@
 #' If not it returns the residual.
 #' @param x Real Value
 #'
-#' @return String expressing if the input value is a multiple of 13 and the residual.
+#' @return String expressing if the input value is a multiple of 13 or the residual.
 #'
 #'
 #' @examples
@@ -15,5 +15,7 @@
 #' @export
 ismultiple13 <- function(x) {
   if (x %% 13 == 0) return("Multiple")
-  else return(cat("Not Multiple. The residual is:", x %% 13))
+  else {
+    return(x %% 13)
+  }
 }
